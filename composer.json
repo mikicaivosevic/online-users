@@ -1,0 +1,22 @@
+{
+  "name": "mikicaivosevic/online-users",
+  "description": "Online users system.",
+  "type": "library",
+  "keywords": ["online", "users", "redis"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Mikica Ivosevic",
+      "email": "mikica.ivosevic@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "predis/predis": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mikica\\Online\\Users\\": "src"
+    }
+  }
+}
