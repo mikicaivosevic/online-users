@@ -1,6 +1,7 @@
 <?php
-namespace Mikica\Online\Users;
+namespace Mikica\Online\Users\Storage;
 
+use Mikica\Online\Users\StorageInterface;
 use Predis\Client as RedisClient;
 
 class RedisStorage implements StorageInterface
