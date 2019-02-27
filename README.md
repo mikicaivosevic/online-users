@@ -1,4 +1,4 @@
-#Online users system
+# Online users system
 
 Simple library which allows you:
 
@@ -7,10 +7,10 @@ Simple library which allows you:
    * Count online users
    * Get list of online users
 
-##Installation
+## 
 `composer require mikicaivosevic/online-users`
 
-##Usage
+## Usage
 
 ```php
 <?php
