@@ -1,7 +1,7 @@
 <?php
 namespace Mikica\Online\Users;
 
-class Client implements StorageInterface
+class Client
 {
     /** @var  StorageInterface $onlineUsers */
     private $onlineUsers;
